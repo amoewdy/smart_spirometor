@@ -1,14 +1,9 @@
-import pyrebase
-import time
 import time
 import serial
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-from pandas.core.frame import DataFrame
 import csv
+from picamera import PiCamera
+camera = PiCamera()
+
 
 ser = serial.Serial(
     port='/dev/cu.usbmodem14401',
@@ -25,14 +20,15 @@ def calculate_distance(num):
     return num * a + b
 
 
-def take_picture():
-    pass
+def take_picture(num):
+    camera.capture("/home/pi/Desktop/test1/" + num + ".jpg")
 
 
 def recording():
+    camera.start_preview(alpha=230)
     received = []
     flag = True
-    max_time = 10
+    max_time = 20
     while flag:
         data = ''
         while ser.inWaiting() > 0 and max_time <= 10:
@@ -45,6 +41,8 @@ def recording():
                 received.append(volume)
                 max_time += 1
         flag = False
+    camera.stop_preview()
+    print(received)
 
 
 if __name__ == "__main__":
