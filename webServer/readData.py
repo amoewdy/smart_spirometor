@@ -1,5 +1,3 @@
-
-
 import pyrebase
 import json
 import time
@@ -23,8 +21,11 @@ firebase = pyrebase.initialize_app(config)
 db = firebase.database()
 
 
-def readData():
-    pass
+def readData(page, count):
+    users = db.child(page).child(count).get()
+    values = [x.val() for x in users.each()]
+    keys = [x.key() for x in users.each()]
+    return keys,values
 
 
 def uploadData():
@@ -39,5 +40,5 @@ def uploadData():
 
 
 if __name__ == '__main__':
-    uploadData()
+    readData('page_user', 1)
 

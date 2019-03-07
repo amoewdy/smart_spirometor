@@ -2,11 +2,27 @@ from flask import Flask, render_template, Response,request, jsonify
 import numpy as np
 import time
 app = Flask(__name__)
+import readData as rd
 
 
+@app.route("/get_data", methods=['GET', 'POST'])
 def get_data():
-    # read records from firebase
-    pass
+    if request.method == 'POST':
+        # read records from firebase
+        # data = rd.readData(page,count)
+        count = request.values['count']
+        page = request.values['page']
+        # data = get_data('page_user', 1)
+        data = rd.readData(page, count)
+        print(data)
+        print(type(data))
+        # template_data = {
+        #  'keys': data[0],
+        #  'values': data[1]
+        # }
+        return str(data)
+    else:
+        return render_template('index.html')
 
 
 def change_threshold():
@@ -14,19 +30,10 @@ def change_threshold():
     pass
 
 
-@app.route("/",methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def index():
-    time_now = time.asctime(time.localtime(time.time()))
-    print(time)
-    readings = get_data()
-    goal = 4500
-    achieved = 5/7
-    templateData = {
-        'time': time_now,
-        'goal': goal,
-        'achieved': achieved,
-    }
-    return render_template('index.html', **templateData)
+    # return render_template('index.html', **template_data)
+    return render_template('index.html')
 
 
 @app.route('/form')

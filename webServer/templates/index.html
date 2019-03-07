@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no,user-scalable=no, viewport-fit=cover">
     <title>Smart Spirometer Statistics</title>
@@ -9,12 +10,13 @@
 <body>
     <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
     <div class = 'container'>
+        <div class = 'information'>
         <H1>Statistics</H1>
-        <p>
-            'time:' {{timeNow}} <br>
-            'goal:' {{goal}} <br>
-            'achieved:' {{achieved}} <br>
-        </p>
+        <div id="value">
+{#            'key:' {{keys}} <br>#}
+{#            'values:' {{values}} <br>#}
+        </div>
+        </div>
     </div>
 </body>
   <script src="/static/data_vis.js"></script>
