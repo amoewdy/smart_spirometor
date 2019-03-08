@@ -29,7 +29,9 @@ def readData(page, count):
 
 
 def uploadData():
+    # need to be adjusted based on needed data structure
     count = 1
+    # 'count' can be a global parameter
     timestamp = time.time()
     data_index = {"name": "Amy",'timestamp':timestamp,'achieve_ratio':1/2}
     data_user = {'timestamp':timestamp,'breath':[1,2,3,4,5],'label':1}

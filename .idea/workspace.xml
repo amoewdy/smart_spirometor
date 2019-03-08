@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a20b603-7b0c-4fd8-b727-d4ad3af21630" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/raspiArduino/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smart_spirometor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smart_spirometor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raspiArduino" beforeDir="false" afterPath="$PROJECT_DIR$/raspiArduino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raspiArduino/arduinoSerial" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/raspiArduino/mock_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/raspiArduino/mock_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webServer/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/webServer/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webServer/readData.py" beforeDir="false" afterPath="$PROJECT_DIR$/webServer/readData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webServer/static/data_vis.js" beforeDir="false" afterPath="$PROJECT_DIR$/webServer/static/data_vis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webServer/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webServer/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/smart_spirometor$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1551947108803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webServer" />
+    <SUITE FILE_PATH="coverage/smart_spirometor$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1552003583374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webServer" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-599985203">
@@ -31,7 +24,8 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,37 +46,38 @@
         <counts>
           <entry key="html" value="102" />
           <entry key="js" value="362" />
-          <entry key="py" value="745" />
+          <entry key="py" value="878" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="102" />
           <entry key="JavaScript" value="362" />
-          <entry key="Python" value="745" />
+          <entry key="Python" value="878" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webServer/readData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="406">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
               <folding>
-                <marker date="1551922865514" expanded="true" signature="724:726" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1552006662326" expanded="true" signature="724:726" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webServer/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="60">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
                 <marker date="1551947108792" expanded="true" signature="242:251" ph="..." />
@@ -94,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/werkzeug/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="13155">
               <caret line="883" selection-start-line="883" selection-end-line="883" />
             </state>
           </provider>
@@ -103,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webServer/static/data_vis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="150">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -113,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/webServer/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -127,9 +122,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/webServer/templates/index.html" />
-        <option value="$PROJECT_DIR$/webServer/readData.py" />
         <option value="$PROJECT_DIR$/webServer/static/data_vis.js" />
         <option value="$PROJECT_DIR$/webServer/app.py" />
+        <option value="$PROJECT_DIR$/webServer/readData.py" />
       </list>
     </option>
   </component>
@@ -140,9 +135,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="499" />
+    <option name="x" value="507" />
     <option name="y" value="23" />
-    <option name="width" value="1224" />
+    <option name="width" value="1596" />
     <option name="height" value="931" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -151,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +175,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,15 +233,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="499" y="23" width="1224" height="931" extended-state="0" />
+    <frame x="507" y="23" width="1596" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30287647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23423423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40286055" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40286055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39928487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -276,7 +271,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/webServer/static/data_vis.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -311,16 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webServer/readData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <marker date="1551922865514" expanded="true" signature="724:726" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -328,34 +312,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webServer/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/werkzeug/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="13155">
           <caret line="883" selection-start-line="883" selection-end-line="883" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webServer/static/data_vis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webServer/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webServer/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
             <marker date="1551947108792" expanded="true" signature="242:251" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webServer/readData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1552006662326" expanded="true" signature="724:726" ph="..." />
           </folding>
         </state>
       </provider>
