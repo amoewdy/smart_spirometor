@@ -6,7 +6,7 @@
       <change beforePath="$PROJECT_DIR$/raspiArduino" beforeDir="false" afterPath="$PROJECT_DIR$/raspiArduino" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/raspiArduino/arduinoSerial" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/raspiArduino/mock_test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/raspiArduino/mock_test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webServer/readData.py" beforeDir="false" afterPath="$PROJECT_DIR$/webServer/readData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webServer/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/webServer/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,21 +46,21 @@
         <counts>
           <entry key="html" value="102" />
           <entry key="js" value="362" />
-          <entry key="py" value="878" />
+          <entry key="py" value="881" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="102" />
           <entry key="JavaScript" value="362" />
-          <entry key="Python" value="878" />
+          <entry key="Python" value="881" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webServer/readData.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
@@ -73,14 +73,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webServer/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
-                <marker date="1551947108792" expanded="true" signature="242:251" ph="..." />
+                <marker date="1552006745771" expanded="true" signature="242:251" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,8 +123,8 @@
       <list>
         <option value="$PROJECT_DIR$/webServer/templates/index.html" />
         <option value="$PROJECT_DIR$/webServer/static/data_vis.js" />
-        <option value="$PROJECT_DIR$/webServer/app.py" />
         <option value="$PROJECT_DIR$/webServer/readData.py" />
+        <option value="$PROJECT_DIR$/webServer/app.py" />
       </list>
     </option>
   </component>
@@ -333,17 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webServer/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-            <marker date="1551947108792" expanded="true" signature="242:251" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webServer/readData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -351,6 +340,17 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <marker date="1552006662326" expanded="true" signature="724:726" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webServer/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+            <marker date="1552006745771" expanded="true" signature="242:251" ph="..." />
           </folding>
         </state>
       </provider>
