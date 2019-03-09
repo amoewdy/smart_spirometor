@@ -21,16 +21,18 @@
       }).done(function (data) {
           console.log('get returned data');
           console.log(data);
+          let obj_data = JSON.parse(data)
+          // console.log(type(data));
           // console.log(data_return.name);
           let messageDiv = document.getElementById("value");
-          messageDiv.innerHTML = data;
-          handle_response(data);
+          messageDiv.innerHTML = obj_data.breath + '<br>' + obj_data.label + '<br>' + obj_data.timestamp;
+          console.log(obj_data.breath);
+          // handle_response(data);
       });
   }
 
   function handle_response(data){
-    let data_array=data.split("],[")
-    console.log(data_array)
+
   }
 
   get_data('page_user',1)

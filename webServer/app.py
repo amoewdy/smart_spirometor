@@ -2,6 +2,7 @@ from flask import Flask, render_template, Response,request, jsonify
 import numpy as np
 import time
 import readData as rd
+import json
 app = Flask(__name__)
 
 
@@ -14,13 +15,14 @@ def get_data():
         page = request.values['page']
         # data = get_data('page_user', 1)
         data = rd.readData(page, count)
-        print(data)
-        print(type(data))
+        # print(data)
+        # print(type(data))
         # template_data = {
         #  'keys': data[0],
         #  'values': data[1]
         # }
-        return str(data)
+        # json_data = json.dumps(data)
+        return data
     else:
         return render_template('index.html')
 

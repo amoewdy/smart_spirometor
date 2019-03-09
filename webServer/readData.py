@@ -13,7 +13,6 @@ config = {
     }
 
 
-
 # Initialize Firebase
 firebase = pyrebase.initialize_app(config)
 
@@ -25,7 +24,8 @@ def readData(page, count):
     users = db.child(page).child(count).get()
     values = [x.val() for x in users.each()]
     keys = [x.key() for x in users.each()]
-    return keys,values
+    json_data = {keys[i]: values[i] for i in range(len(values))}
+    return json.dumps(json_data)
 
 
 def uploadData():
