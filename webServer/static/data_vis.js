@@ -52,7 +52,7 @@ function handle_page_content(data){
     let record_sum = Object.keys(data).length
     console.log(record_sum)
     var timestamp = new Array()
-    
+
 
 
 }
