@@ -20,6 +20,14 @@ firebase = pyrebase.initialize_app(config)
 db = firebase.database()
 
 
+def getSum(page):
+    sum = db.child(page).get()
+    keys = [x.key() for x in sum.each()]
+    values = [x.val() for x in sum.each()]
+    sum_num = len(keys)
+    return sum_num-1
+
+
 def readData(page, count):
     users = db.child(page).child(count).get()
     values = [x.val() for x in users.each()]
@@ -33,14 +41,15 @@ def uploadData():
     count = 1
     # 'count' can be a global parameter
     timestamp = time.time()
-    data_index = {"name": "Amy",'timestamp':timestamp,'achieve_ratio':1/2}
-    data_user = {'timestamp':timestamp,'breath':[1,2,3,4,5],'label':1}
+    data_index = {"name": "Penny",'timestamp':timestamp,'achieve_ratio':1/2}
+    data_user = {'timestamp':timestamp,'breath':[6.0,6.3,6.6,6.9,7.0,7.2,7.0,7.3,7.4,8.0],'label':1}
     # db.child("page_index").child(count).update(data_index)
     # db.child("page_user").child(count).update(data_user)
-    db.child("page_index").child(count+1).set(data_index)
-    db.child("page_user").child(count+1).set(data_user)
+    db.child("page_index").child(count+2).update(data_index)
+    db.child("page_user").child(count+2).update(data_user)
 
 
 if __name__ == '__main__':
-    readData('page_user', 1)
+    # readData('page_user', 1)
+    uploadData()
 

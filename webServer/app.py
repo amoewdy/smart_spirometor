@@ -6,6 +6,16 @@ import json
 app = Flask(__name__)
 
 
+@app.route("/get_sum", methods=['GET', 'POST'])
+def get_sum():
+    if request.method == 'POST':
+        page = request.values['page']
+        sum_num = rd.getSum(page)
+        return str(sum_num)
+    else:
+        return render_template('index.html')
+
+
 @app.route("/get_data", methods=['GET', 'POST'])
 def get_data():
     if request.method == 'POST':

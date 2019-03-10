@@ -25,14 +25,40 @@
           // console.log(type(data));
           // console.log(data_return.name);
           let messageDiv = document.getElementById("value");
-          messageDiv.innerHTML = obj_data.breath + '<br>' + obj_data.label + '<br>' + obj_data.timestamp;
+          messageDiv.innerHTML += obj_data.breath + '<br>' + obj_data.label + '<br>' + obj_data.timestamp;
           console.log(obj_data.breath);
-          // handle_response(data);
+          return obj_data;
       });
   }
 
-  function handle_response(data){
-
+  function get_sum(page){
+    $.ajax({
+          type: "POST",
+          url: "http://localhost:8080/get_sum",
+          data: {
+              page: page,
+          }
+      }).done(function (data) {
+          console.log('get sum');
+          console.log(data);
+         return data;
+      });
   }
 
-  get_data('page_user',1)
+  function page_content(page){
+    let sum_str = get_sum(page);
+    let sum_int = parseInt(sum_str);
+    console.log(typeof(sum_int));
+    console.log('sum=',sum_int);
+    var content = new Array();
+    for (var i=1;i<=sum_int;i++)
+    {
+        content[i-1]= get_data(page,i);
+        console.log("add",content[i-1]);
+    }
+    console.log('end',content);
+    return content
+  }
+
+
+page_content('page_user')
