@@ -9,7 +9,7 @@ config = {
     'projectId': "smart-spirometer",
     'storageBucket': "smart-spirometer.appspot.com",
     'messagingSenderId': "846679117231",
-    'serviceAccount': "smart-spirometer-firebase-adminsdk-ntwx4-c55ff7cd43.json"
+    'serviceAccount': "smart-spirometer-firebase-adminsdk-ntwx4-4602e55e0f.json"
     }
 
 
