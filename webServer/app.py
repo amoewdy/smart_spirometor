@@ -11,7 +11,17 @@ def get_sum():
     if request.method == 'POST':
         page = request.values['page']
         sum_num = rd.getSum(page)
-        return str(sum_num)
+        return json.dumps(sum_num)
+    else:
+        return render_template('index.html')
+
+
+@app.route("/get_user_page", methods=['GET', 'POST'])
+def get_user_page():
+    if request.method == 'POST':
+        page = request.values['page']
+        content = rd.readPage(page)
+        return content
     else:
         return render_template('index.html')
 
@@ -25,17 +35,9 @@ def get_data():
         page = request.values['page']
         # data = get_data('page_user', 1)
         data = rd.readData(page, count)
-        # print(data)
-        # print(type(data))
-        # template_data = {
-        #  'keys': data[0],
-        #  'values': data[1]
-        # }
-        # json_data = json.dumps(data)
         return data
     else:
         return render_template('index.html')
-
 
 def change_threshold():
     # change the goal of volume per inhale in firebase

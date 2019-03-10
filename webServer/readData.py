@@ -28,6 +28,14 @@ def getSum(page):
     return sum_num-1
 
 
+def readPage(page):
+    users = db.child(page).get()
+    values = [x.val() for x in users.each()]
+    keys = [x.key() for x in users.each()]
+    json_data = {keys[i]: values[i] for i in range(len(values))}
+    return json.dumps(json_data)
+
+
 def readData(page, count):
     users = db.child(page).child(count).get()
     values = [x.val() for x in users.each()]

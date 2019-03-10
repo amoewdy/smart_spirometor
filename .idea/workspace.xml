@@ -18,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/smart_spirometor$app.coverage" NAME="app Coverage Results" MODIFIED="1552259674367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webServer" />
     <SUITE FILE_PATH="coverage/smart_spirometor$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1552181680252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webServer" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -27,43 +28,84 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="3" />
-          <entry key="py" value="16" />
+          <entry key="js" value="4" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSS" value="1" />
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="3" />
-          <entry key="Python" value="16" />
+          <entry key="JavaScript" value="4" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="102" />
-          <entry key="js" value="1263" />
-          <entry key="py" value="1345" />
+          <entry key="js" value="1742" />
+          <entry key="py" value="1447" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="102" />
-          <entry key="JavaScript" value="1263" />
-          <entry key="Python" value="1345" />
+          <entry key="JavaScript" value="1742" />
+          <entry key="Python" value="1447" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webServer/readData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1552259283007" expanded="true" signature="556:960" ph="..." />
+                <marker date="1552259283007" expanded="true" signature="1219:1221" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webServer/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+                <marker date="1552259579501" expanded="true" signature="219:679" ph="..." />
+                <marker date="1552259579501" expanded="true" signature="491:679" ph="..." />
+                <marker date="1552259579501" expanded="true" signature="776:785" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webServer/static/data_vis.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,8 +114,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/webServer/templates/index.html" />
-        <option value="$PROJECT_DIR$/webServer/app.py" />
         <option value="$PROJECT_DIR$/webServer/readData.py" />
+        <option value="$PROJECT_DIR$/webServer/app.py" />
         <option value="$PROJECT_DIR$/webServer/static/data_vis.js" />
       </list>
     </option>
@@ -85,9 +127,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
-    <option name="y" value="27" />
-    <option name="width" value="1442" />
+    <option name="x" value="522" />
+    <option name="y" value="32" />
+    <option name="width" value="1723" />
     <option name="height" value="929" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -146,7 +188,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python">
       <module name="smart_spirometor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,14 +225,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="27" width="1442" height="929" extended-state="0" />
+    <frame x="522" y="32" width="1723" height="929" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18143962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40262842" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40262842" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39928487" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,7 +285,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/webServer/static/data_vis.js</url>
-          <line>22</line>
+          <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -298,34 +341,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webServer/static/data_vis.js">
+    <entry file="file://$PROJECT_DIR$/webServer/static/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webServer/readData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="551">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1552259283007" expanded="true" signature="556:960" ph="..." />
+            <marker date="1552259283007" expanded="true" signature="1219:1221" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webServer/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="385">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
-            <marker date="1552178896519" expanded="true" signature="219:410" ph="..." />
-            <marker date="1552178896519" expanded="true" signature="507:516" ph="..." />
+            <marker date="1552259579501" expanded="true" signature="219:679" ph="..." />
+            <marker date="1552259579501" expanded="true" signature="491:679" ph="..." />
+            <marker date="1552259579501" expanded="true" signature="776:785" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webServer/readData.py">
+    <entry file="file://$PROJECT_DIR$/webServer/static/data_vis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1552179633237" expanded="true" signature="556:719" ph="..." />
-            <marker date="1552179633237" expanded="true" signature="978:980" ph="..." />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
         </state>
       </provider>
     </entry>
