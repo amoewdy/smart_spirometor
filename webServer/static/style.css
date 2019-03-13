@@ -27,6 +27,7 @@
 title{
     text-align:left;
     font-size:16px;
+    margin: 1rem 0rem 1rem 0rem;
     /*color: #969696;*/
     font-weight: bolder;
     display: block;
@@ -44,4 +45,27 @@ h1{
 
 }
 
+.line {
+    fill: none;
+    stroke: #17a2b8;
+    stroke-width: 3;
+}
 
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #17a2b8;
+    stroke: #fff;
+}
+
+.focus circle {
+fill: none;
+stroke: steelblue;}
+
+.button_1{
+    margin:15px 0 15px 0;
+}
