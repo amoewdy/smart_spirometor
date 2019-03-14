@@ -1,5 +1,5 @@
 
-const goal_num = 48
+const goal_num = 18;
 function get_data(page,count){
 $.ajax({
       type: "POST",
@@ -54,7 +54,7 @@ function handle_page_content(data){
     // messageDiv.innerHTML = '<title>' + 'Completed SMI' + '</title>' + '<p>' + record_sum + '</p>';
     let messageProgress = document.getElementById("progressbar");
     var progress = record_sum/goal_num *100
-    messageProgress.innerHTML = "<div class='progress-bar bg-info' role='progressbar' style='width: "+progress+"%;' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'>"+record_sum+"</div>"
+    messageProgress.innerHTML = "<div class='progress-bar bg-info' role='progressbar' style='width: "+progress+"%;' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'>"+record_sum+"</div>"+"<div class='progress-bar bg-success' role='progressbar' style='width: "+10+"%;' aria-valuenow='25' aria-valuemin='0' aria-valuemax='100'>"+record_sum+"</div>"
     let record_timestamp = new Array()
     let record_readings = new Array()
     let record_label = new Array()
